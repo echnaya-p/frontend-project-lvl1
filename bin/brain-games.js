@@ -1,3 +1,7 @@
 #! C:/polina project/frontend-project-lvl1/bin/brain-games.js node
 
-console.log('Welcome to thr Brain Games!');
+import { sayHello } from '../src/cli.js';
+
+console.log('Welcome to the Brain Games!');
+
+sayHello();
