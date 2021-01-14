@@ -2,6 +2,7 @@
 
 import sayHello from '../src/cli.js';
 
+console.log('test');
 console.log('Welcome to the Brain Games!');
 
 sayHello();
