@@ -20,7 +20,7 @@ function startRound() {
 
     return true;
   }
-  console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
+  console.log(`'${answer}' is wrong answer ;(. Correct answer was '${checkEven(number)}'.`);
 
   return false;
 }
