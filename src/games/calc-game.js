@@ -1,15 +1,15 @@
-import randomNumberUntil from '../random.js';
+import getRandomNumber from '../random.js';
 
 const randomOperation = () => {
   const operation = ['+', '-', '*'];
-  const index = randomNumberUntil(2);
+  const index = getRandomNumber(0, 2);
 
   return operation[index];
 };
 
 const randomExpression = () => {
-  const firstNubmer = randomNumberUntil(100);
-  const secondNumber = randomNumberUntil(100);
+  const firstNubmer = getRandomNumber(1, 100);
+  const secondNumber = getRandomNumber(1, 100);
   const operation = randomOperation();
 
   return `${firstNubmer} ${operation} ${secondNumber}`;

@@ -1,6 +1,6 @@
-import randomNumberUntil from '../random.js';
+import getRandomNumber from '../random.js';
 
-const randomNumber = () => randomNumberUntil(100);
+const randomNumber = () => getRandomNumber(1, 100);
 
 const checkEven = (checkNumber) => {
   const result = checkNumber % 2 === 0 ? 'yes' : 'no';
