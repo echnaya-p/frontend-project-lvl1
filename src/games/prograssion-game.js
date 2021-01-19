@@ -31,6 +31,7 @@ const checkProgression = (str) => {
         return difference;
       }
     }
+    return 0;
   };
 
   return Number(array[indexSecretMember - 1]) + getDifference();
