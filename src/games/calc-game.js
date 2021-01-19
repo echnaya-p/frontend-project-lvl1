@@ -1,15 +1,15 @@
-import { randomNumber } from './even-game.js';
+import randomNumberUntil from '../random.js';
 
 const randomOperation = () => {
   const operation = ['+', '-', '*'];
-  const number = Math.round(Math.random() * Math.floor(2));
+  const index = randomNumberUntil(2);
 
-  return operation[number];
+  return operation[index];
 };
 
 const randomExpression = () => {
-  const firstNubmer = randomNumber();
-  const secondNumber = randomNumber();
+  const firstNubmer = randomNumberUntil(100);
+  const secondNumber = randomNumberUntil(100);
   const operation = randomOperation();
 
   return `${firstNubmer} ${operation} ${secondNumber}`;
