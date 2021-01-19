@@ -1,3 +1,3 @@
-export default function randomNumberUntil(number) {
-  return Math.round(Math.random() * Math.floor(number));
+export default function getRandomNumber(min, max) {
+  return Math.round(Math.random() * (max - min) + min);
 }
