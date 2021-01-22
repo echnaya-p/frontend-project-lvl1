@@ -7,7 +7,7 @@
 ```sh
 $ make install
 ```
-## Install packet
+## Package installation
 [![asciicast](https://asciinema.org/a/QA4UXAcdHgpxLfrWtDjbSe5hZ.svg)](https://asciinema.org/a/QA4UXAcdHgpxLfrWtDjbSe5hZ)
 
 ## Brain Games
@@ -15,3 +15,15 @@ $ make install
 
 ## Brain Even
 [![asciicast](https://asciinema.org/a/zp5YgXqt1YRCuR7KvUYOJfPkJ.svg)](https://asciinema.org/a/zp5YgXqt1YRCuR7KvUYOJfPkJ)
+
+## Brain Calc
+[![asciicast](https://asciinema.org/a/uqC1LH4wYTY46m1Ww71mI1SLI.svg)](https://asciinema.org/a/uqC1LH4wYTY46m1Ww71mI1SLI)
+
+## Brain GCD
+[![asciicast](https://asciinema.org/a/MrIoUNySH5MT8cHc2UEYvQhgy.svg)](https://asciinema.org/a/MrIoUNySH5MT8cHc2UEYvQhgy)
+
+## Brain Progression
+[![asciicast](https://asciinema.org/a/czALQykx9Bz6tI54sHtupIWoM.svg)](https://asciinema.org/a/czALQykx9Bz6tI54sHtupIWoM)
+
+## Brain Prime
+[![asciicast](https://asciinema.org/a/CXQJMu4BeKLsWW4oPaODKJOTe.svg)](https://asciinema.org/a/CXQJMu4BeKLsWW4oPaODKJOTe)
