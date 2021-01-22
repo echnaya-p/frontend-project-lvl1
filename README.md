@@ -7,3 +7,11 @@
 ```sh
 $ make install
 ```
+## Install packet
+[![asciicast](https://asciinema.org/a/QA4UXAcdHgpxLfrWtDjbSe5hZ.svg)](https://asciinema.org/a/QA4UXAcdHgpxLfrWtDjbSe5hZ)
+
+## Brain Games
+[![asciicast](https://asciinema.org/a/skDG3YeFfsyAwOi7PcNdvBE5S.svg)](https://asciinema.org/a/skDG3YeFfsyAwOi7PcNdvBE5S)
+
+## Brain Even
+[![asciicast](https://asciinema.org/a/zp5YgXqt1YRCuR7KvUYOJfPkJ.svg)](https://asciinema.org/a/zp5YgXqt1YRCuR7KvUYOJfPkJ)
