@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import startGame from '../src/index.js';
-import name from './brain-games.js';
+import sayHello from '../src/cli.js';
 import { randomTwoNumbers, checkGcd } from '../src/games/gcd-game.js';
 
 function startGdsGame(username) {
@@ -9,4 +9,5 @@ function startGdsGame(username) {
   startGame(username, randomTwoNumbers, checkGcd);
 }
 
+const name = sayHello();
 startGdsGame(name);

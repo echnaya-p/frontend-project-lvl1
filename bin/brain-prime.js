@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import startGame from '../src/index.js';
-import name from './brain-games.js';
+import sayHello from '../src/cli.js';
 import { randomNumber, checkPrimeNumber } from '../src/games/prime-game.js';
 
 function startPrimeGame(username) {
@@ -9,4 +9,5 @@ function startPrimeGame(username) {
   startGame(username, randomNumber, checkPrimeNumber);
 }
 
+const name = sayHello();
 startPrimeGame(name);

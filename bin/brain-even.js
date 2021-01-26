@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import startGame from '../src/index.js';
-import name from './brain-games.js';
+import sayHello from '../src/cli.js';
 import { randomNumber, checkEven } from '../src/games/even-game.js';
 
 function startEvenGame(username) {
@@ -9,4 +9,5 @@ function startEvenGame(username) {
   startGame(username, randomNumber, checkEven);
 }
 
+const name = sayHello();
 startEvenGame(name);

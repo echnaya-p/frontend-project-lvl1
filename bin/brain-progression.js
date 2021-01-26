@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import startGame from '../src/index.js';
-import name from './brain-games.js';
+import sayHello from '../src/cli.js';
 import { progression, checkProgression } from '../src/games/prograssion-game.js';
 
 function startProgresssionGame(username) {
@@ -9,4 +9,5 @@ function startProgresssionGame(username) {
   startGame(username, progression, checkProgression);
 }
 
+const name = sayHello();
 startProgresssionGame(name);
