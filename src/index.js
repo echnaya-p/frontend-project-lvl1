@@ -24,7 +24,7 @@ export default function startGame(username, getData, checkData) {
     const isAnswerCorrect = getRoundResult(getData, checkData);
 
     if (!isAnswerCorrect) {
-      console.log(`Let's try again, ${username}`);
+      console.log(`Let's try again, ${username}!`);
       return;
     }
   }
