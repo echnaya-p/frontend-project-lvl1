@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import startGame from '../src/index.js';
 import name from './brain-games.js';
 import { randomExpression, checkExpression } from '../src/games/calc-game.js';

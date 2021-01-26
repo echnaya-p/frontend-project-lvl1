@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import startGame from '../src/index.js';
 import name from './brain-games.js';
 import { randomNumber, checkEven } from '../src/games/even-game.js';
